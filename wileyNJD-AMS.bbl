@@ -1,0 +1,59 @@
+\begin{thebibliography}{9}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname doiprefix\endcsname\relax\def\doiprefix{doi:}\fi
+
+\bibitem[{Allen(2011)}]{Allen2011}
+Allen, T.~T., 2011: {\it Introduction to {D}iscrete {E}vent {S}imulation and
+  {A}gent-based {M}odeling: {V}oting {S}ystems{,} {H}ealth {C}are{,}
+  {M}ilitary{,} and {M}anufacturing\/}. Springer, New York.
+
+\bibitem[{Ballen(2011)}]{Ballen2011}
+Ballen, T.~T., 2011: {\it Introduction to {D}iscrete {E}vent {S}imulation and
+  {A}gent-based {M}odeling: {V}oting {S}ystems{,} {H}ealth {C}are{,}
+  {M}ilitary{,} and {M}anufacturing\/}. 2nd ed., Springer, New York.
+
+\bibitem[{Blanchard and Loubere(2015)}]{Blanchard2015}
+Blanchard, G. and R.~Loubere, 2015: {\it High-order {C}onservative {R}emapping
+  with a posteriori {MOOD} stabilization on polygonal meshes\/}. Available
+  from: \url{http://www.emn.fr/z-info/choco-solver/} [last accessed {M}ay
+  2011].
+
+\bibitem[{Boggs et~al.(2002)Boggs, Bozman, and Perry}]{Boggs2002}
+Boggs, R., J.~Bozman, and R.~Perry, 2002: Reducing downtime and business loss:
+  {A}dressing business risk with effective technology.  Technical report 91-18.
+  International {D}ata {C}orporation ({IDC}). Sernageomin.
+
+\bibitem[{Elbaum et~al.(February 2002)Elbaum, Malishevsky, and
+  Rothermel}]{Elbaum2002}
+Elbaum, S., A.~G. Malishevsky, and G.~Rothermel, February 2002: Test case
+  prioritization: a family of empirical studies. {\it IEEE {T}ransactions on
+  {S}oftware {E}ngineering\/}, {\bf 28}, no. 2, 159--182, doi:12345.2345.
+
+\bibitem[{Rothermel(1997)}]{Rothermel1997}
+Rothermel, G., 1997: A safe efficient regression test selection technique. {\it
+  ACM {T}ransactions on {S}oftware {E}ngineering and {M}ethodology\/}, {\bf 6},
+  no. 2, 173--210.
+
+\bibitem[{Rothermel et~al.(1998)Rothermel, Harrold, Hirt, Amsden, and
+  Cook}]{Rothermel1998}
+Rothermel, G., M.~J. Harrold, C.~W. Hirt, A.~A. Amsden, and J.~L. Cook, 1998: A
+  safe efficient regression test selection technique. {\it {ACM} {T}ransactions
+  on {S}oftware {E}ngineering and {M}ethodology\/}, {\bf 6}, no. 2, 173--210.
+
+\bibitem[{Schulz and Doblhammer(2012)}]{Schulz2012}
+Schulz, A. and G.~Doblhammer, 2012: Aktueller und zuk{\"{u}}nftiger
+  {K}rankenbestand von {D}emenz in {D}eutschland auf basis der outinedaten der
+  {AOK}. ({C}urrent and future number of people suffering from dementia in
+  {G}ermany based on routine data from the {AOK}.). {\it Versorgungs-Report\/},
+  C.~Gnster, J.~Klose, and N.~Schmacke, Eds., IEEE {P}ress, Piscataway, NJ,
+  USA, 161--175.
+
+\bibitem[{Yoo and Harman(2007)}]{Yoo2007}
+Yoo, S. and M.~Harman, 2007: Pareto efficient multi-objective test case
+  selection. {\it Proceedings of the {I}nternational {C}onference on {S}oftware
+  {T}esting and {A}nalysis\/}, London, UK, 140--150.
+
+\end{thebibliography}

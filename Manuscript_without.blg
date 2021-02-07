@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Manuscript_without.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Bibliography.bib
+Repeated entry---line 381 of file Bibliography.bib
+ :   @article{BelbutePeres2020CombiningDP
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 421 of file Bibliography.bib
+ : @inproceedings{Sutton1998IntroductionTR
+ :                                        ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
+-- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in Weinan2017APO
+Warning--empty booktitle in Hewing2020LearningBasedMP
+Warning--empty booktitle in Sutton1998IntroductionTR
+Warning--empty journal in SpinningUp2018
+
+Done.
+You've used 27 entries,
+            3975 wiz_defined-function locations,
+            945 strings with 12207 characters,
+and the built_in function-call counts, 17018 in all, are:
+= -- 1236
+> -- 562
+< -- 82
++ -- 288
+- -- 119
+* -- 815
+:= -- 2608
+add.period$ -- 54
+call.type$ -- 27
+change.case$ -- 27
+chr.to.int$ -- 183
+cite$ -- 31
+duplicate$ -- 1317
+empty$ -- 1466
+format.name$ -- 144
+if$ -- 3870
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 263
+newline$ -- 103
+num.names$ -- 27
+pop$ -- 703
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1316
+stack$ -- 0
+substring$ -- 454
+swap$ -- 931
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 0
+warning$ -- 4
+while$ -- 48
+width$ -- 29
+write$ -- 255
+(There were 2 error messages)
