@@ -50,12 +50,6 @@
 \captionsetup[figure]{font=normalsize}
 
 
-
-
-\received{}
-\revised{}
-\accepted{}
-
 \raggedbottom
 
 \begin{document}
@@ -82,13 +76,13 @@
 \maketitle
 
 \section{Introduction}
-Learning for Dynamic Control is an emerging field of research located at the interaction between classic control and reinforcement learning (RL). Although RL community routinely generate jaw-dropping results that seem out of reach to the control community\cite{Dao2020AdaptiveRL}\cite{Zheng2020BalanceCF}\cite{Xin2020RobustES}\cite{Dornheim2018ModelfreeAO}, the theories that undergird RL are as bleak as it was first introduced\cite{Bertsekas1996NeuroDynamicP}. Today, those deficiencies can be easily papered over by the advent of Deep Neural Networks (DNN) and ever faster computational capacities. However, for RL to reach its full potential, existing control theories and strategies have to be part of that new combined formulation.
+Learning for Dynamic Control is an emerging field of research located at the interaction between classic control and reinforcement learning (RL). Although RL community routinely generate jaw-dropping results that seem out of reach to the control community\citet{Dao2020AdaptiveRL}\citet{Zheng2020BalanceCF}\citet{Xin2020RobustES}\citet{Dornheim2018ModelfreeAO}, the theories that undergird RL are as bleak as it was first introduced\citet{Bertsekas1996NeuroDynamicP}. Today, those deficiencies can be easily papered over by the advent of Deep Neural Networks (DNN) and ever faster computational capacities. However, for RL to reach its full potential, existing control theories and strategies have to be part of that new combined formulation.
 
-There are three ways that classic control finds its way into RL. First, theorists who are well versed in optimization techniques and mathematical formalism can provide systematic perspectives to RL and invent the much needed analytical tools\cite{Han2020ActorCriticRL}\cite{Weinan2017APO}\cite{Dupont2019AugmentedNO}\cite{Betancourt2018OnSO}\cite{Nachum2020ReinforcementLV}\cite{Lv2019ApproximateOS}. Second, system identification researchers are exploring all possible configurations to combine existing system models with DNN and its variations\cite{Hewing2020LearningBasedMP}\cite{Mohan2020EmbeddingHP}\cite{Lusch2018DeepLF}\cite{Bai2019DeepEM}\cite{BelbutePeres2020CombiningDP}\cite{Oh2020DeepRB}\cite{Cheng2019OnorbitRU}. Third, proven controllers can provide data on successful control trajectories to be used in imitation learning, reverse reinforcement learning, and "human"-in-the-loop learning\cite{Knox2009InteractivelySA}\cite{Knox2010CombiningMF}\cite{Peng2018DeepMimicED}\cite{Peng2020LearningAR}\cite{Paine2018OneShotHI}\cite{Choi2017InverseRL}.
+There are three ways that classic control finds its way into RL. First, theorists who are well versed in optimization techniques and mathematical formalism can provide systematic perspectives to RL and invent the much needed analytical tools\citet{Han2020ActorCriticRL}\citet{Weinan2017APO}\citet{Dupont2019AugmentedNO}\citet{Betancourt2018OnSO}\citet{Nachum2020ReinforcementLV}\citet{Lv2019ApproximateOS}. Second, system identification researchers are exploring all possible configurations to combine existing system models with DNN and its variations\citet{Hewing2020LearningBasedMP}\citet{Mohan2020EmbeddingHP}\citet{Lusch2018DeepLF}\citet{Bai2019DeepEM}\citet{BelbutePeres2020CombiningDP}\citet{Oh2020DeepRB}\citet{Cheng2019OnorbitRU}. Third, proven controllers can provide data on successful control trajectories to be used in imitation learning, reverse reinforcement learning, and "human"-in-the-loop learning\citet{Knox2009InteractivelySA}\citet{Knox2010CombiningMF}\citet{Peng2018DeepMimicED}\citet{Peng2020LearningAR}\citet{Paine2018OneShotHI}\citet{Choi2017InverseRL}.
 
 Our approach is an extension of the third line of research. We propose a coaching structure between the classical controllers and the RL agents. Professional athletes don't get where they are via trial-and-error. Their skillsets are forged through painstakingly designed coaching techniques. At the top level, a coach's objective is not to be a template for the athletes to imitate after, but rather is to facilitate data collection on critical states. 
 
-Previous researches\cite{Xie2018LearningWT}\cite{Carlucho2017IncrementalQS}\cite{Pavse2020RIDMRI}\cite{Choi2017InverseRL} are about making a functioning controller works better. They require high-quality controllers to begin with, and the improvements brought about by the RL agents are merely icing on the cake. In addition, the controllers inadvertently impose limits on what can be achieved by the RL agents. If, unfortunately, a bad controller is chosen, then the RL training process would be hindered rather than expedited. 
+Previous researches\citet{Xie2018LearningWT}\citet{Carlucho2017IncrementalQS}\citet{Pavse2020RIDMRI}\citet{Choi2017InverseRL} are about making a functioning controller works better. They require high-quality controllers to begin with, and the improvements brought about by the RL agents are merely icing on the cake. In addition, the controllers inadvertently impose limits on what can be achieved by the RL agents. If, unfortunately, a bad controller is chosen, then the RL training process would be hindered rather than expedited. 
 
 \begin{table}
 \caption{Performance of the PID controllers, as indicated by the average score over 10 episodes.}
@@ -122,7 +116,7 @@ In section II, we present the idea of controller-based coaching. In section III,
 
 Reinforcement Learning is the process of cycling between interaction with an environment and refinement of the understanding of that environment. RL agents methodically extract information from experiences, gradually bounding system models, policy distributions, or cost-to-go approximations to maximize the expected rewards along a trajectory. RL is an umbrella term that encompasses distinctive learning genres, which means updating parameters for the function approximators. A general taxonomy of RL is listed below:
 
-Model-Based or Model-Free learning refers to whether or not learning is used to approximate the system dynamics function. If there is an explicit action policy, it is called on-policy learning. Otherwise, the optimal action would be implicitly captured by the Q value function, which would be called off-policy learning instead. Importance sampling allows "limited off-policy learning" capacity, which enables data reuse in a trusted region. Online learning means interleaving data collection and iterative network parameters update. Offline learning means the data is collected in bulk first, and then the network parameters are set with regression computation. Batch learning, as the name suggested, is in between online and offline learning. An agent would first generate data that fill its batch memory and then sample from the batch memories for iterative parameter update. Generate new data with the updated parameters. This taxonomy is somewhat outdated now. When Richard Sutton wrote his book\cite{Sutton1998IntroductionTR}, the algorisms he had in mind fall nicely into various categories, today, however, the popular algorisms would combine more than one route to derive superior performance and can't be pigeonholed.
+Model-Based or Model-Free learning refers to whether or not learning is used to approximate the system dynamics function. If there is an explicit action policy, it is called on-policy learning. Otherwise, the optimal action would be implicitly captured by the Q value function, which would be called off-policy learning instead. Importance sampling allows "limited off-policy learning" capacity, which enables data reuse in a trusted region. Online learning means interleaving data collection and iterative network parameters update. Offline learning means the data is collected in bulk first, and then the network parameters are set with regression computation. Batch learning, as the name suggested, is in between online and offline learning. An agent would first generate data that fill its batch memory and then sample from the batch memories for iterative parameter update. Generate new data with the updated parameters. This taxonomy is somewhat outdated now. When Richard Sutton wrote his book\citet{Sutton1998IntroductionTR}, the algorisms he had in mind fall nicely into various categories, today, however, the popular algorisms would combine more than one route to derive superior performance and can't be pigeonholed.
 
 A fundamental concept in RL is convergence through bootstrap: instead of asymptotically approaching a known target function, the bootstrap method converges to an assumed target first and then update the target assumption based on collected data. When evaluating estimation functions with belief rather than the real value, things could just run around in circles and never converge. Without any guidance, the RL agent would have explored all the possible states, potentially resulting in this unstable behavior. 
 
@@ -137,11 +131,11 @@ Crucially, the agent is oblivious to this intervention step, and it would not be
 On the other hand, if the controller successfully adjusts the trajectory, the RL agent's next data collection cycle will be spent in a critical state. Therefore, all we require of the PID controller is a reasonable success rate in adjusting the RL agent's trajectory. We test our approach on four mujoco locomotion environments as a proof of concept, and in all four experiments, the hypothesized acceleration on RL training is observed.
 
 \section{Experimental Results}
-Mujoco physics engine\cite{6386109}, is one of many such simulation tools. We interface with it through a python wrapper provided by the OpenAI Gym\cite{Brockman2016OpenAIG}. We choose two environments for our experiments as a proof of concept: inverted pendulum, double inverted pendulum. 
+Mujoco physics engine\citet{6386109}, is one of many such simulation tools. We interface with it through a python wrapper provided by the OpenAI Gym\citet{Brockman2016OpenAIG}. We choose two environments for our experiments as a proof of concept: inverted pendulum, double inverted pendulum. 
 
 Every environment comes with a set of predetermined rewards and maximum episode steps. We did not tinker with those parameters. The only change we made to each environment is a controller-based coach ready to intervene when the agent steps out of the predetermined critical states.
 
-We use tensorforce's\cite{tensorforce} implementation of RL agents, specifically the Proximal Policy Optimization (PPO) agent because the learning curves generated by PPO agent are smoother, as shown by the spinning up\cite{SpinningUp2018} team. Our paper aims to indicate the controller-based coaching method's feasibility, and a smoother curve makes things easier. 
+We use tensorforce's\citet{tensorforce} implementation of RL agents, specifically the Proximal Policy Optimization (PPO) agent because the learning curves generated by PPO agent are smoother, as shown by the spinning up\citet{SpinningUp2018} team. Our paper aims to indicate the controller-based coaching method's feasibility, and a smoother curve makes things easier. 
 
 In this paper, human judgment is the basis for the determination of critical states. In future works, we would like to provide a more systematic process for critical states' demarcation. We will provide our reasonings when we discuss our experiments in each environment. 
 
@@ -150,18 +144,23 @@ Our experiments' code and data can be accessed via \href{https://github.com/BaiL
 \subsection{Inverted Pendulum}
 The observation space of the inverted pendulum environment is: [Cart Position on X-axis, Cart Velocity, Pole Angle, Pole Angular Velocity]. The continuous action space is an action ranging from -1 to 1, where -1 means the actuator moves the cart to the left with maximum power and 1 means the actuator moves the cart to the right with full force. The maximum episode step number is 1000. The terminal state for the inverted pendulum is an angle of absolute value greater than 0.2 radius. The reward is 1 for each non-terminal step and 0 for the terminal step. 
 
+%\begin{multicols}{2}
+
 \begin{figure}
-  \centering 
+  \centering
   \includegraphics[width=0.3\textwidth]{ip_PID}
   \caption{Inverted Pendulum system controlled by the PID coach. The average score achieved by the PID controller is 240 out of 1000.}
   \label{fig:ip_pid}
 \end{figure}
+
+
 \begin{figure}
-  \centering 
+  \centering
   \includegraphics[width=0.3\textwidth]{ip_PID_actions}
   \caption{Actions taken by the PID controller}
   \label{fig:ip_pid_actions}
 \end{figure} 
+%\end{multicols}
 
 Figure \ref{fig:ip_pid} shows how the PID controller manages the pole angle and its angular velocity. The PID parameters are the following: $k_p=30,k_i=0.01,k_d=2.26$. The action of PID controller is shown in Figure \ref{fig:ip_pid_actions}. While the PID controller tries hard to converge to zero, eventually, there would be too much accumulation on the x-axis, and the equilibrium breaks down.
 
@@ -169,7 +168,7 @@ Based on our observations of the system, we decide to put the boundary between c
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\textwidth]{ip.png}
+\includegraphics[width=0.8\textwidth]{ip.png}
 \caption{Inverted Pendulum Experiment Result. }
 \label{fig:ip_result}
 \end{figure}
@@ -265,7 +264,6 @@ None reported.
 The authors declare no potential conflict of interests.
 
 
-\bibliography{wileyNJD-AMS}%
-\bibliography{Bibliography}
+\bibliography{wiley}%
 
 \end{document}

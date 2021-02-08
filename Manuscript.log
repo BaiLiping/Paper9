@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 FEB 2021 00:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 FEB 2021 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1264,37 +1264,37 @@ LaTeX Warning: Unused global option(s):
 (./Manuscript.aux)
 \openout1 = `Manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-61.
+55.
  (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-61.
+55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    ... okay on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1332,7 +1332,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box133
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1345,9 +1345,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count459
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1386,14 +1386,14 @@ LaTeX Info: Redefining \nameref on input line 61.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count460
-LaTeX Info: Redefining \microtypecontext on input line 61.
+LaTeX Info: Redefining \microtypecontext on input line 55.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 61.
+LaTeX Info: Redefining \showhyphens on input line 55.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1407,56 +1407,56 @@ Runaway argument?
 ! Paragraph ended before \zz was complete.
 <to be read again> 
                    \par 
-l.82 \maketitle
+l.76 \maketitle
                
 ? 
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 82.
+ne 76.
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 82.
+e 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 82.
+ine 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 82.
+e 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 82.
+ne 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 82.
+e 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 82.
+e 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1465,7 +1465,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1477,46 +1477,124 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ! Misplaced alignment tab character &.
 <argument> College of Automation &
                                    College of Artificial Intelligence
-l.82 \maketitle
+l.76 \maketitle
                
 ? 
 
-Overfull \hbox (346.99213pt too wide) in paragraph at lines 82--82
+Overfull \hbox (346.99213pt too wide) in paragraph at lines 76--76
 [][] | || []|[][] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 82
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 76
 .
 ! Extra }, or forgotten \endgroup.
 \@maketitle ...movelastskip \vskip \adjtitleskip }
                                                   
-l.82 \maketitle
+l.76 \maketitle
                
 ? 
-Runaway argument?
-]{Dao2020AdaptiveRL}\cite {Zheng2020BalanceCF}\cite {Xin2020RobustES}\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.86 
-     
-? 
-Runaway argument?
-]{Han2020ActorCriticRL}\cite {Weinan2017APO}\cite {Dupont2019Augmente\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.88 
-     
-? 
-Runaway argument?
-]{Xie2018LearningWT}\cite {Carlucho2017IncrementalQS}\cite {Pavse2020\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.92 
-     
-? 
+
+Package natbib Warning: Author undefined for citation`Dao2020AdaptiveRL' 
+(natbib)                on page 1 on input line 79.
+
+
+Package natbib Warning: Author undefined for citation`Zheng2020BalanceCF' 
+(natbib)                on page 1 on input line 79.
+
+
+Package natbib Warning: Author undefined for citation`Xin2020RobustES' 
+(natbib)                on page 1 on input line 79.
+
+
+Package natbib Warning: Author undefined for citation`Dornheim2018ModelfreeAO' 
+
+(natbib)                on page 1 on input line 79.
+
+
+Package natbib Warning: Author undefined for citation`Bertsekas1996NeuroDynamic
+P' 
+(natbib)                on page 1 on input line 79.
+
+
+Package natbib Warning: Author undefined for citation`Han2020ActorCriticRL' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Weinan2017APO' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Dupont2019AugmentedNO' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Betancourt2018OnSO' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Nachum2020ReinforcementLV
+' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Lv2019ApproximateOS' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Hewing2020LearningBasedMP
+' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Mohan2020EmbeddingHP' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Lusch2018DeepLF' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Bai2019DeepEM' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`BelbutePeres2020Combining
+DP' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Oh2020DeepRB' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Cheng2019OnorbitRU' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Knox2009InteractivelySA' 
+
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Knox2010CombiningMF' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Peng2018DeepMimicED' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Peng2020LearningAR' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Paine2018OneShotHI' 
+(natbib)                on page 1 on input line 81.
+
+
+Package natbib Warning: Author undefined for citation`Choi2017InverseRL' 
+(natbib)                on page 1 on input line 81.
+
 
 Overfull \vbox (6.46347pt too high) has occurred while \output is active []
 
@@ -1526,122 +1604,124 @@ Overfull \vbox (6.46347pt too high) has occurred while \output is active []
 \openout3 = `Manuscript.pag'.
 
 ]
-Runaway argument?
-]{Sutton1998IntroductionTR}, the algorisms he had in mind fall nicely\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.126 
-      
-? 
+
+Package natbib Warning: Author undefined for citation`Xie2018LearningWT' 
+(natbib)                on page 2 on input line 85.
+
+
+Package natbib Warning: Author undefined for citation`Carlucho2017IncrementalQS
+' 
+(natbib)                on page 2 on input line 85.
+
+
+Package natbib Warning: Author undefined for citation`Pavse2020RIDMRI' 
+(natbib)                on page 2 on input line 85.
+
+
+Package natbib Warning: Author undefined for citation`Choi2017InverseRL' 
+(natbib)                on page 2 on input line 85.
+
+
+Package natbib Warning: Author undefined for citation`Sutton1998IntroductionTR'
+ 
+(natbib)                on page 2 on input line 119.
+
 [2]
-Runaway argument?
-]{6386109}, is one of many such simulation tools. We interface with i\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.141 
-      
-? 
-Runaway argument?
-]{tensorforce} implementation of RL agents, specifically the Proximal\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.145 
-      
-? 
-<ip_PID.png, id=25, 1215.54124pt x 724.7075pt>
+
+Package natbib Warning: Author undefined for citation`6386109' 
+(natbib)                on page 3 on input line 134.
+
+
+Package natbib Warning: Author undefined for citation`Brockman2016OpenAIG' 
+(natbib)                on page 3 on input line 134.
+
+
+Package natbib Warning: Author undefined for citation`tensorforce' 
+(natbib)                on page 3 on input line 138.
+
+
+Package natbib Warning: Author undefined for citation`SpinningUp2018' 
+(natbib)                on page 3 on input line 138.
+
+<ip_PID.png, id=85, 1215.54124pt x 724.7075pt>
 File: ip_PID.png Graphic file (type png)
 <use ip_PID.png>
-Package pdftex.def Info: ip_PID.png  used on input line 155.
+Package pdftex.def Info: ip_PID.png  used on input line 151.
 (pdftex.def)             Requested size: 152.2539pt x 90.76514pt.
-<ip_PID_actions.png, id=27, 1162.3425pt x 724.7075pt>
+[3]
+<ip_PID_actions.png, id=98, 1162.3425pt x 724.7075pt>
 File: ip_PID_actions.png Graphic file (type png)
 <use ip_PID_actions.png>
-Package pdftex.def Info: ip_PID_actions.png  used on input line 161.
+Package pdftex.def Info: ip_PID_actions.png  used on input line 159.
 (pdftex.def)             Requested size: 152.2539pt x 94.923pt.
-<ip.png, id=30, 939.51pt x 505.89pt>
+<ip.png, id=101, 939.51pt x 505.89pt>
 File: ip.png Graphic file (type png)
 <use ip.png>
-Package pdftex.def Info: ip.png  used on input line 172.
-(pdftex.def)             Requested size: 253.75394pt x 136.6307pt.
-[3 <./ip_PID.png>]
-<ip_RL.png, id=45, 1199.48125pt x 774.895pt>
+Package pdftex.def Info: ip.png  used on input line 171.
+(pdftex.def)             Requested size: 406.00784pt x 218.61687pt.
+ [4 <./ip_PID.png> <./ip_PID_actions.png> <./ip.png>]
+<ip_RL.png, id=117, 1199.48125pt x 774.895pt>
 File: ip_RL.png Graphic file (type png)
 <use ip_RL.png>
-Package pdftex.def Info: ip_RL.png  used on input line 181.
+Package pdftex.def Info: ip_RL.png  used on input line 180.
 (pdftex.def)             Requested size: 152.2539pt x 98.35144pt.
-<ip_RL_actions.png, id=46, 1172.38pt x 782.925pt>
+<ip_RL_actions.png, id=118, 1172.38pt x 782.925pt>
 File: ip_RL_actions.png Graphic file (type png)
 <use ip_RL_actions.png>
-Package pdftex.def Info: ip_RL_actions.png  used on input line 188.
+Package pdftex.def Info: ip_RL_actions.png  used on input line 187.
 (pdftex.def)             Requested size: 152.2539pt x 101.6763pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 \T1/stix/m/n/10.03749 (+20) The inverted dou-ble pen-du-lum has obser-va-tion s
 pace of the fol-low-ing: [x posi-tion of the cart, sin($\LS1/stix/m/it/10.03749
  ^^R[]$\T1/stix/m/n/10.03749 (+20) ),
  []
 
-[4 <./ip_PID_actions.png> <./ip.png> <./ip_RL.png>]
-<double_PID.png, id=57, 1190.4475pt x 768.8725pt>
+<double_PID.png, id=119, 1190.4475pt x 768.8725pt>
 File: double_PID.png Graphic file (type png)
 <use double_PID.png>
-Package pdftex.def Info: double_PID.png  used on input line 201.
+Package pdftex.def Info: double_PID.png  used on input line 200.
 (pdftex.def)             Requested size: 152.2539pt x 98.32617pt.
-<double_PID_upper.png, id=58, 1187.43625pt x 768.8725pt>
+<double_PID_upper.png, id=120, 1187.43625pt x 768.8725pt>
 File: double_PID_upper.png Graphic file (type png)
 <use double_PID_upper.png>
-Package pdftex.def Info: double_PID_upper.png  used on input line 205.
+Package pdftex.def Info: double_PID_upper.png  used on input line 204.
 (pdftex.def)             Requested size: 152.2539pt x 98.58427pt.
-<double_PID_actions.png, id=59, 1203.49625pt x 771.88374pt>
+<double_PID_actions.png, id=121, 1203.49625pt x 771.88374pt>
 File: double_PID_actions.png Graphic file (type png)
 <use double_PID_actions.png>
-Package pdftex.def Info: double_PID_actions.png  used on input line 213.
+Package pdftex.def Info: double_PID_actions.png  used on input line 212.
 (pdftex.def)             Requested size: 152.2539pt x 97.65125pt.
-<double.png, id=62, 939.51pt x 505.89pt>
+<double.png, id=124, 939.51pt x 505.89pt>
 File: double.png Graphic file (type png)
 <use double.png>
-Package pdftex.def Info: double.png  used on input line 222.
+Package pdftex.def Info: double.png  used on input line 221.
 (pdftex.def)             Requested size: 253.75394pt x 136.6307pt.
-<double_RL.png, id=63, 1105.12875pt x 763.85374pt>
+<double_RL.png, id=125, 1105.12875pt x 763.85374pt>
 File: double_RL.png Graphic file (type png)
 <use double_RL.png>
-Package pdftex.def Info: double_RL.png  used on input line 235.
+Package pdftex.def Info: double_RL.png  used on input line 234.
 (pdftex.def)             Requested size: 152.2539pt x 105.22543pt.
-<double_RL_upper.png, id=64, 1119.18124pt x 782.925pt>
+<double_RL_upper.png, id=126, 1119.18124pt x 782.925pt>
 File: double_RL_upper.png Graphic file (type png)
 <use double_RL_upper.png>
-Package pdftex.def Info: double_RL_upper.png  used on input line 239.
+Package pdftex.def Info: double_RL_upper.png  used on input line 238.
 (pdftex.def)             Requested size: 152.2539pt x 106.50267pt.
-<double_RL_actions.png, id=65, 1141.26375pt x 762.85pt>
+<double_RL_actions.png, id=127, 1141.26375pt x 762.85pt>
 File: double_RL_actions.png Graphic file (type png)
 <use double_RL_actions.png>
-Package pdftex.def Info: double_RL_actions.png  used on input line 248.
+Package pdftex.def Info: double_RL_actions.png  used on input line 247.
 (pdftex.def)             Requested size: 152.2539pt x 101.76973pt.
- [5 <./ip_RL_actions.png> <./double_PID.png> <./double_PID_upper.png> <./double
-_PID_actions.png>] [6 <./double.png> <./double_RL.png> <./double_RL_upper.png> 
-<./double_RL_actions.png>]
-(./Manuscript.bbl
+[5 <./ip_RL.png> <./ip_RL_actions.png>] [6 <./double_PID.png> <./double_PID_upp
+er.png> <./double_PID_actions.png> <./double.png>] (./Manuscript.bbl [7 <./doub
+le_RL.png> <./double_RL_upper.png> <./double_RL_actions.png>]) [8] [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 9.
-
-) (./Manuscript.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 9.
-
-) [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
- (./Manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 271.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
+(./Manuscript.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 269.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  )
 (\end occurred when \ifx on line 99 was incomplete)
 (\end occurred when \ifx on line 99 was incomplete)
@@ -1659,23 +1739,24 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
 (\end occurred when \ifx on line 74 was incomplete)
 (\end occurred when \ifx on line 74 was incomplete) 
 Here is how much of TeX's memory you used:
- 27868 strings out of 481239
- 475115 string characters out of 5920378
- 738159 words of memory out of 5000000
- 42431 multiletter control sequences out of 15000+600000
- 624170 words of font info for 170 fonts, out of 8000000 for 9000
+ 28033 strings out of 481239
+ 479220 string characters out of 5920378
+ 738636 words of memory out of 5000000
+ 42529 multiletter control sequences out of 15000+600000
+ 630333 words of font info for 188 fonts, out of 8000000 for 9000
  1167 hyphenation exceptions out of 8191
- 60i,11n,60p,1618b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,60p,1618b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/stix/stix-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/STIXGeneral-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/stix/STIXGeneral-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix
-/stix-mathrm.pfb>
-Output written on Manuscript.pdf (7 pages, 1195770 bytes).
+lic/stix/STIXGeneral-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/stix/STIXGeneral-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix/
+stix-mathrm.pfb>
+Output written on Manuscript.pdf (9 pages, 1243080 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 9881 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 11921 words of extra memory for PDF output out of 12000 (max. 10000000)
 

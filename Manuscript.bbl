@@ -1,9 +1,160 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
+
+\bibitem{SpinningUp2018}
+J.~Achiam, \textit{{Spinning Up in Deep Reinforcement Learning}}  (2018).
+
+\bibitem{Bai2019DeepEM}
+S.~Bai, J.~Z. Kolter, and V.~Koltun, \textit{Deep equilibrium models}, ArXiv
+  \textbf{abs/1909.01377} (2019).
+
+\bibitem{Bertsekas1996NeuroDynamicP}
+D.~Bertsekas and J.~Tsitsiklis, \textit{Neuro-dynamic programming},
+  \textit{Encyclopedia of Machine Learning}.
+
+\bibitem{Betancourt2018OnSO}
+M.~Betancourt, M.~I. Jordan, and A.~Wilson, \textit{On symplectic
+  optimization}, arXiv: Computation  (2018).
+
+\bibitem{Brockman2016OpenAIG}
+G.~Brockman et~al., \textit{Openai gym}, ArXiv \textbf{abs/1606.01540} (2016).
+
+\bibitem{Carlucho2017IncrementalQS}
+I.~Carlucho et~al., \textit{Incremental q-learning strategy for adaptive pid
+  control of mobile robots}, Expert Syst. Appl. \textbf{80} (2017), 183--199.
+
+\bibitem{Cheng2019OnorbitRU}
+Y.~Cheng et~al., \textit{On-orbit reconfiguration using adaptive dynamic
+  programming for multi-mission-constrained spacecraft attitude control
+  system}, International Journal of Control, Automation and Systems \textbf{17}
+  (2019), 822--835.
+
+\bibitem{Choi2017InverseRL}
+S.~Choi, S.~Kim, and H.~J. Kim, \textit{Inverse reinforcement learning control
+  for trajectory tracking of a multirotor uav}, International Journal of
+  Control, Automation and Systems \textbf{15} (2017), 1826--1834.
+
+\bibitem{Dao2020AdaptiveRL}
+P.~Dao and Y.-C. Liu, \textit{Adaptive reinforcement learning strategy with
+  sliding mode control for unknown and disturbed wheeled inverted pendulum},
+  International Journal of Control Automation and Systems  (2020).
+
+\bibitem{BelbutePeres2020CombiningDP}
+F.~de~Avila Belbute-Peres, T.~D. Economon, and J.~Z. Kolter, \textit{Combining
+  differentiable pde solvers and graph neural networks for fluid flow
+  prediction}, ArXiv \textbf{abs/2007.04439} (2020).
+
+\bibitem{Dornheim2018ModelfreeAO}
+J.~Dornheim, N.~Link, and P.~Gumbsch, \textit{Model-free adaptive optimal
+  control of episodic fixed-horizon manufacturing processes using reinforcement
+  learning}, International Journal of Control, Automation and Systems
+  \textbf{18} (2018), 1593--1604.
+
+\bibitem{Dupont2019AugmentedNO}
+E.~Dupont, A.~Doucet, and Y.~Teh, \textit{Augmented neural odes},
+  \textit{NeurIPS}.
+
+\bibitem{Han2020ActorCriticRL}
+M.~Han et~al., \textit{Actor-critic reinforcement learning for control with
+  stability guarantee}, IEEE Robotics and Automation Letters \textbf{5} (2020),
+  6217--6224.
+
+\bibitem{Hewing2020LearningBasedMP}
+L.~Hewing et~al., \textit{Learning-based model predictive control: Toward safe
+  learning in control}.
+
+\bibitem{Knox2009InteractivelySA}
+W.~B. Knox and P.~Stone, \textit{Interactively shaping agents via human
+  reinforcement: The tamer framework}, \textit{Proceedings of the Fifth
+  International Conference on Knowledge Capture}, K-CAP '09, Association for
+  Computing Machinery, New York, NY, USA, 9–16,
+  \doi{10.1145/1597735.1597738}.
+  \urlprefix\url{https://doi.org/10.1145/1597735.1597738}.
+
+\bibitem{Knox2010CombiningMF}
+W.~B. Knox and P.~Stone, \textit{Combining manual feedback with subsequent mdp
+  reward signals for reinforcement learning}, \textit{Proceedings of the 9th
+  International Conference on Autonomous Agents and Multiagent Systems: Volume
+  1 - Volume 1}, AAMAS '10, International Foundation for Autonomous Agents and
+  Multiagent Systems, Richland, SC, 5–12.
+
+\bibitem{tensorforce}
+A.~Kuhnle, M.~Schaarschmidt, and K.~Fricke, \textit{Tensorforce: a tensorflow
+  library for applied reinforcement learning}, Web page, 2017.
+  \urlprefix\url{https://github.com/tensorforce/tensorforce}.
+
+\bibitem{Lusch2018DeepLF}
+B.~Lusch, J.~N. Kutz, and S.~Brunton, \textit{Deep learning for universal
+  linear embeddings of nonlinear dynamics}, Nature Communications \textbf{9}
+  (2018).
+
+\bibitem{Lv2019ApproximateOS}
+Y.~Lv et~al., \textit{Approximate optimal stabilization control of servo
+  mechanisms based on reinforcement learning scheme}, International Journal of
+  Control Automation and Systems \textbf{17} (2019), 2655--2665.
+
+\bibitem{Mohan2020EmbeddingHP}
+A.~Mohan et~al., \textit{Embedding hard physical constraints in neural network
+  coarse-graining of 3d turbulence.}, arXiv: Computational Physics  (2020).
+
+\bibitem{Nachum2020ReinforcementLV}
+O.~Nachum and B.~Dai, \textit{Reinforcement learning via fenchel-rockafellar
+  duality}, ArXiv \textbf{abs/2001.01866} (2020).
+
+\bibitem{Oh2020DeepRB}
+T.-H. Oh et~al., \textit{Deep rl based notch filter design method for complex
+  industrial servo systems}, International Journal of Control Automation and
+  Systems \textbf{18} (2020), 1--10.
+
+\bibitem{Paine2018OneShotHI}
+T.~Paine et~al., \textit{One-shot high-fidelity imitation: Training large-scale
+  deep nets with rl}, ArXiv \textbf{abs/1810.05017} (2018).
+
+\bibitem{Pavse2020RIDMRI}
+B.~S. Pavse et~al., \textit{Ridm: Reinforced inverse dynamics modeling for
+  learning from a single observed demonstration}, IEEE Robotics and Automation
+  Letters \textbf{5} (2020), 6262--6269.
+
+\bibitem{Peng2018DeepMimicED}
+X.~Peng et~al., \textit{Deepmimic: Example-guided deep reinforcement learning
+  of physics-based character skills}, ACM Trans. Graph. \textbf{37} (2018),
+  143:1--143:14.
+
+\bibitem{Peng2020LearningAR}
+X.~Peng et~al., \textit{Learning agile robotic locomotion skills by imitating
+  animals}, ArXiv \textbf{abs/2004.00784} (2020).
+
+\bibitem{Sutton1998IntroductionTR}
+R.~Sutton and A.~Barto, \textit{Introduction to reinforcement learning}.
+
+\bibitem{6386109}
+E.~{Todorov}, T.~{Erez}, and Y.~{Tassa}, \textit{Mujoco: A physics engine for
+  model-based control}, \textit{2012 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems}, 5026--5033, \doi{10.1109/IROS.2012.6386109}.
+
+\bibitem{Weinan2017APO}
+E.~Weinan, \textit{A proposal on machine learning via dynamical systems}.
+
+\bibitem{Xie2018LearningWT}
+L.~Xie et~al., \textit{Learning with training wheels: Speeding up training with
+  a simple controller for deep reinforcement learning}, 2018 IEEE International
+  Conference on Robotics and Automation (ICRA)  (2018), 6276--6283.
+
+\bibitem{Xin2020RobustES}
+Y.~Xin, Z.-C. Qin, and J.-Q. Sun, \textit{Robust experimental study of
+  data-driven optimal control for an underactuated rotary flexible joint},
+  International Journal of Control, Automation and Systems \textbf{18} (2020),
+  1202--1214.
+
+\bibitem{Zheng2020BalanceCF}
+Y.~Zheng, X.~Li, and L.~Xu, \textit{Balance control for the first-order
+  inverted pendulum based on the advantage actor-critic algorithm},
+  International Journal of Control Automation and Systems \textbf{18} (2020),
+  1--8.
 
 \end{thebibliography}
